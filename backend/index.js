@@ -8,7 +8,6 @@ const PORT = process.env.PORT || 8080;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.post("/", (req, res) => {
-    // res.send("APS full stack 2");
     res.status(200).json({data:"khashayar"})
 });
 
